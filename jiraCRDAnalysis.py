@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 # Connect to JIRA
 jira = JIRA(server='https://opengovinc.atlassian.net/', 
-            basic_auth=('scheriyakummeri@opengov.com', 'ATATT3xFfGF0hLRuUnhnBLWc3Z7CmoH0gl2QWyOsjFZdGWmPw_Lq_nqySHYVSi1FFS-OA1tMWdZkP5yZOi2HtXHV9uaPfbCb5CPu4PrzK4vmbXvqiTmNb3TDM6GwzmqTGFw2j9HTILPz7ytboScuJXJy3-B9qGplA896FYuiTfYiAwsgxn0erkI=0C5FF5DB'))
+            basic_auth=('scheriyakummeri@opengov.com', 'Token'))
 
 
 jql_query = 'project = CRD AND "Suite[Dropdown]" = Financials'
